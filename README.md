@@ -19,6 +19,6 @@ project, please feel free to issue pull requests etc. and I will consider them a
 
 Plans: Incorporate this in to the [WordPress Simple Firewall](https://wordpress.org/plugins/wp-simple-firewall/)
 
-Service provided by [iControlWP](www.icontrolwp.com).
+Service provided by [iControlWP](https://www.icontrolwp.com).
 
 Last Updated: 2015-07-01
