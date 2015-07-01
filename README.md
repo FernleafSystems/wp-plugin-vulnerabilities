@@ -1,5 +1,5 @@
 # wp-plugin-vulnerabilities
-A collection of WordPress plugin vulnerabilities.
+A standardized collection of WordPress plugin vulnerabilities.
 
 The data for this has been extracted from the '[Plugin Vulnerabilities](https://wordpress.org/plugins/plugin-vulnerabilities/)' plugin
 in the WordPress.org repository and stored in a standardised YAML format. These developers have provided all the original source data for this YAML, all we have
@@ -20,3 +20,5 @@ project, please feel free to issue pull requests etc. and I will consider them a
 Plans: Incorporate this in to the [WordPress Simple Firewall](https://wordpress.org/plugins/wp-simple-firewall/)
 
 Service provided by [iControlWP](www.icontrolwp.com).
+
+Last Updated: 2015-07-01
