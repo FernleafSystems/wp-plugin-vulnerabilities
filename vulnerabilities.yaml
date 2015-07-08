@@ -121,6 +121,8 @@ download-monitor:
     - { FirstVersion: 1.0.0, LastVersion: 1.6.3, TypeOfVulnerability: 'authenticated information disclosure', URL: 'http://research.evex.pw/?vuln=7' }
 download-shortcode:
     - { FirstVersion: '0.1', LastVersion: '0.1', TypeOfVulnerability: 'arbitrary file viewing', URL: 'https://wordpress.org/support/topic/plugin-download-shortcode-security-issue' }
+download-zip-attachments:
+    - { FirstVersion: '1', LastVersion: '1', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=129' }
 dp-thumbnail:
     - { FirstVersion: '1.0', LastVersion: '1.0', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.exploit-db.com/exploits/17872/' }
 dukapress:
@@ -164,6 +166,8 @@ foxypress:
     - { FirstVersion: 0.3.6.1, LastVersion: 0.4.2.1, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.opensyscom.fr/Actualites/wordpress-plugins-foxypress-shell-upload-vulnerability.html' }
 free-counter:
     - { FirstVersion: 1.0.5, LastVersion: '1.1', TypeOfVulnerability: 'persistent cross-site scripting (XSS)', URL: 'https://www.exploit-db.com/exploits/37132/' }
+front-end-upload:
+    - { FirstVersion: 0.3.0, LastVersion: 0.5.3, TypeOfVulnerability: 'arbitrary file upload', URL: 'https://www.exploit-db.com/exploits/19008/' }
 front-file-manager:
     - { FirstVersion: '0.1', LastVersion: '0.1', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.exploit-db.com/exploits/19012/' }
 frontend-uploader:
@@ -209,6 +213,8 @@ html5avmanager:
     - { FirstVersion: 0.1.0, LastVersion: 0.2.7, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.opensyscom.fr/Actualites/wordpress-plugins-html5-av-manager-shell-upload-vulnerability.html' }
 i-dump-iphone-to-wordpress-photo-uploader:
     - { FirstVersion: 1.1.3, LastVersion: '1.8', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://packetstormsecurity.com/files/131363/WordPress-Windows-Desktop-And-iPhone-Photo-Uploader-File-Upload.html' }
+image-export:
+    - { FirstVersion: 1.0.0, LastVersion: 1.1.0, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=135' }
 image-symlinks:
     - { FirstVersion: '0.5', LastVersion: 0.8.2, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.iransec.net/forums/index.php?/topic/2680-wordpress-image-symlinks-plugin-arbitrary-file-upload-vulnerability/' }
 improved-user-search-in-backend:
@@ -251,6 +257,8 @@ mashsharer:
     - { FirstVersion: 2.1.7, LastVersion: 2.3.0, TypeOfVulnerability: 'information disclosure', URL: 'https://research.g0blin.co.uk/g0blin-00045/' }
 maxbuttons:
     - { FirstVersion: '1.0', LastVersion: 1.26.0, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://www.htbridge.com/advisory/HTB23237' }
+mdc-youtube-downloader:
+    - { FirstVersion: 2.1.0, LastVersion: 2.1.0, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=133' }
 media-file-manager-advanced:
     - { FirstVersion: 1.0.0, LastVersion: 1.1.5, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://research.evex.pw/?vuln=16' }
     - { FirstVersion: 1.0.0, LastVersion: 1.1.5, TypeOfVulnerability: 'authenticated SQL injection', URL: 'http://research.evex.pw/?vuln=16' }
@@ -396,7 +404,7 @@ simplelife:
 siteorigin-panels:
     - { FirstVersion: '2.0', LastVersion: 2.0.4, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://security.szurek.pl/page-builder-by-siteorigin-203-reflected-xss.html' }
 slider-image:
-    - { FirstVersion: '1.6', LastVersion: 2.7.6, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'https://www.exploit-db.com/exploits/37361/' }
+    - { FirstVersion: '1.6', LastVersion: 2.7.8, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'https://www.exploit-db.com/exploits/37361/' }
 sliding-recent-posts:
     - { FirstVersion: 1.0.0, LastVersion: 1.0.0, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129504/WordPress-Sliding-Recent-Posts-1.0-CSRF-XSS.html' }
 sliding-social-icons:
@@ -497,6 +505,8 @@ wp-business-intelligence-lite:
     - { FirstVersion: '1.1', LastVersion: 1.6.1, TypeOfVulnerability: 'SQL injeciton', URL: 'http://packetstormsecurity.com/files/131228/WordPress-Business-Intelligence-Lite-1.6.1-SQL-Injection.html' }
 wp-construction-mode:
     - { FirstVersion: '1.0', LastVersion: '1.91', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129511/WordPress-WP-Construction-Mode-1.91-XSS.html' }
+wp-copyprotect:
+    - { FirstVersion: '1.0', LastVersion: 3.0.0, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'https://research.g0blin.co.uk/g0blin-00054/' }
 wp-copysafe-pdf:
     - { FirstVersion: '0.1', LastVersion: '0.7', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://packetstormsecurity.com/files/127457/WordPress-CopySafe-PDF-Protection-0.6-Shell-Upload.html' }
 wp-cron-dashboard:
@@ -507,6 +517,8 @@ wp-easy-slideshow:
     - { FirstVersion: 1.0.1, LastVersion: 1.0.3, TypeOfVulnerability: 'cross-site request forgery (CSRF)', URL: 'http://www.exploit-db.com/exploits/36612/' }
 wp-easycart:
     - { FirstVersion: 1.1.27, LastVersion: 3.0.8, TypeOfVulnerability: 'authenticated arbitrary file upload', URL: 'http://security.szurek.pl/wordpress-shopping-cart-304-unrestricted-file-upload.html' }
+wp-ecommerce-shop-styling:
+    - { FirstVersion: '1.0', LastVersion: '2.5', TypeOfVulnerability: 'authenticated arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=136' }
 wp-email:
     - { FirstVersion: '2.30', LastVersion: '2.64', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://0day.today/exploit/23066' }
 wp-error-fix:
@@ -537,10 +549,18 @@ wp-mon:
     - { FirstVersion: '0.5', LastVersion: 0.5.1, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://packetstormsecurity.com/files/131502/WordPress-WP-Mon-Arbitrary-File-Download.html' }
 wp-photo-album-plus:
     - { FirstVersion: 2.4.3, LastVersion: 5.5.17, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://security.szurek.pl/wp-photo-album-plus-5417-reflected-xss.html' }
+wp-powerplaygallery:
+    - { FirstVersion: '3.3', LastVersion: '3.3', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.vapid.dhs.org/advisory.php?v=132' }
+    - { FirstVersion: '3.3', LastVersion: '3.3', TypeOfVulnerability: 'SQL injection', URL: 'http://www.vapid.dhs.org/advisory.php?v=132' }
+wp-property:
+    - { FirstVersion: 1.20.0, LastVersion: 1.35.0, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.opensyscom.fr/Actualites/wordpress-plugins-wp-property-shell-upload-vulnerability.html' }
+wp-rollback:
+    - { FirstVersion: '1.0', LastVersion: 1.2.2, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://blog.secupress.fr/en/wp-rollback-a-too-permissive-plugin-395.html' }
+    - { FirstVersion: '1.0', LastVersion: 1.2.2, TypeOfVulnerability: 'cross-site request forgery (CSRF)', URL: 'http://blog.secupress.fr/en/wp-rollback-a-too-permissive-plugin-395.html' }
 wp-rss-aggregator:
     - { FirstVersion: '4.4', LastVersion: 4.6.3, TypeOfVulnerability: 'post deletion', URL: 'http://security.szurek.pl/wp-rss-aggregator-463-post-deletion.html' }
 wp-rss-multi-importer:
-    - { FirstVersion: 3.00.00, LastVersion: '3.13', TypeOfVulnerability: 'cross-site request forgery', URL: 'https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-1/' }
+    - { FirstVersion: 3.00.00, LastVersion: '3.13', TypeOfVulnerability: 'cross-site request forgery (CSRF)', URL: 'https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-1/' }
 wp-security-scan:
     - { FirstVersion: 3.0.2, LastVersion: 4.0.4, TypeOfVulnerability: 'cross-site request forgery (CSRF)', URL: 'http://packetstormsecurity.com/files/125218/WordPress-Acunetix-WP-Security-Make-Backup-4.0.3-CSRF.html' }
 wp-seo-spy-google:
@@ -555,6 +575,8 @@ wp-support-plus-responsive-ticket-system:
     - { FirstVersion: '1.0', LastVersion: '4.1', TypeOfVulnerability: 'SQL injection', URL: 'http://www.exploit-db.com/exploits/34589/' }
 wp-survey-and-poll:
     - { FirstVersion: '1.0', LastVersion: 1.1.91, TypeOfVulnerability: 'SQL injection', URL: 'http://www.exploit-db.com/exploits/36054/' }
+wp-swimteam:
+    - { FirstVersion: '1', LastVersion: 1.44.1077, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=134' }
 wp-symposium:
     - { FirstVersion: '13.04', LastVersion: '14.11', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/' }
     - { FirstVersion: 12.06.16, LastVersion: '15.1', TypeOfVulnerability: 'SQL injection', URL: 'http://packetstormsecurity.com/files/131801/WordPress-WP-Symposium-15.1-SQL-Injection.html' }

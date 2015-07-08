@@ -17,7 +17,7 @@ I wanted to work with the original developers on creating a standard data store 
 [but my suggestion was rejected](https://wordpress.org/support/topic/centralrized-data-options) so I've forged ahead anyway. To help with this
 project, please feel free to issue pull requests etc. and I will consider them all in due time.
 
-Plans: Incorporate this in to the [WordPress Simple Firewall](https://wordpress.org/plugins/wp-simple-firewall/)
+This system of detection and notification of vulnerabilities has been integrated into the [Simple Firewall plugin from version 4.9.0](https://www.icontrolwp.com/updates-blog/)
 
 Service provided by [iControlWP](https://www.icontrolwp.com).
 
