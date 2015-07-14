@@ -1,5 +1,7 @@
 ab-google-map-travel:
     - { FirstVersion: '1.0', LastVersion: '3.4', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/130960/WordPress-AB-Google-Map-Travel-CSRF-XSS.html' }
+acf-frontend-display:
+    - { FirstVersion: '', LastVersion: 2.0.6, TypeOfVulnerability: 'arbitrary file upload', URL: 'https://packetstormsecurity.com/files/132590/WordPress-ACF-Frontend-Display-Shell-Upload.html' }
 acobot:
     - { FirstVersion: '1.0', LastVersion: '2.0', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/130306/WordPress-Acobot-Live-Chat-And-Contact-Form-2.0-CSRF-XSS.html' }
 ad-buttons:
@@ -154,10 +156,15 @@ fancy-gallery:
     - { FirstVersion: '1.5', LastVersion: 1.5.12, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://security.szurek.pl/fancy-gallery-1512-reflected-xss.html' }
 fancybox-for-wordpress:
     - { FirstVersion: '3.0', LastVersion: 3.0.2, TypeOfVulnerability: 'persistent cross-site scripting (XSS)', URL: 'https://wordpress.org/support/topic/possible-malware-2' }
+fast-image-adder:
+    - { FirstVersion: '1.0', LastVersion: '1.1', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.vapid.dhs.org/advisory.php?v=139' }
 feature-comments:
     - { FirstVersion: '1.1', LastVersion: 1.2.1, TypeOfVulnerability: 'cross-site request forgery (CSRF)', URL: 'https://security.dxw.com/advisories/csrf-in-featured-comments-1-2-1-allows-an-attacker-to-set-and-unset-comment-statuses/' }
 filedownload:
     - { FirstVersion: '0.1', LastVersion: '0.1', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.exploit-db.com/exploits/17858/' }
+    - { FirstVersion: '1.4', LastVersion: '1.4', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://www.vapid.dhs.org/advisory.php?v=140' }
+floating-social-bar:
+    - { FirstVersion: 1.0.0, LastVersion: 1.1.6, TypeOfVulnerability: 'persistent cross-site scripting (XSS)', URL: 'http://security.szurek.pl/floating-social-bar-115-xss.html' }
 formidable:
     - { FirstVersion: 1.07.5, LastVersion: 2.0.07, TypeOfVulnerability: 'information disclosure', URL: 'https://research.g0blin.co.uk/g0blin-00049/' }
 fourteen-extended:
@@ -213,6 +220,8 @@ html5avmanager:
     - { FirstVersion: 0.1.0, LastVersion: 0.2.7, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.opensyscom.fr/Actualites/wordpress-plugins-html5-av-manager-shell-upload-vulnerability.html' }
 i-dump-iphone-to-wordpress-photo-uploader:
     - { FirstVersion: 1.1.3, LastVersion: '1.8', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://packetstormsecurity.com/files/131363/WordPress-Windows-Desktop-And-iPhone-Photo-Uploader-File-Upload.html' }
+ibs-mappro:
+    - { FirstVersion: '0.1', LastVersion: '0.6', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=137' }
 image-export:
     - { FirstVersion: 1.0.0, LastVersion: 1.1.0, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=135' }
 image-symlinks:
@@ -253,6 +262,8 @@ liveforms:
     - { FirstVersion: 1.0.0, LastVersion: 3.0.1, TypeOfVulnerability: 'authenticated SQL injection', URL: 'https://research.g0blin.co.uk/g0blin-00034/' }
 login-sidebar-widget:
     - { FirstVersion: 2.2.3, LastVersion: 3.1.1, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'https://security.dxw.com/advisories/csrfxss-vulnerablity-in-login-widget-with-shortcode-allows-unauthenticated-attackers-to-do-anything-an-admin-can-do/' }
+mailcwp:
+    - { FirstVersion: '1.1', LastVersion: '1.99', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.vapid.dhs.org/advisory.php?v=138' }
 mashsharer:
     - { FirstVersion: 2.1.7, LastVersion: 2.3.0, TypeOfVulnerability: 'information disclosure', URL: 'https://research.g0blin.co.uk/g0blin-00045/' }
 maxbuttons:
@@ -289,7 +300,9 @@ newsletter:
     - { FirstVersion: 3.0.0, LastVersion: 3.8.2, TypeOfVulnerability: 'open redirect', URL: 'https://research.g0blin.co.uk/g0blin-00039/' }
 newstatpress:
     - { FirstVersion: 0.1.0, LastVersion: 1.0.0, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://packetstormsecurity.com/files/132038/WordPress-NewStatPress-0.9.8-Cross-Site-Scripting-SQL-Injection.html' }
-    - { FirstVersion: 0.1.0, LastVersion: 1.0.0, TypeOfVulnerability: 'cross-site request forgery/SQL injection', URL: 'https://packetstormsecurity.com/files/132038/WordPress-NewStatPress-0.9.8-Cross-Site-Scripting-SQL-Injection.html' }
+    - { FirstVersion: 0.1.0, LastVersion: 1.0.0, TypeOfVulnerability: 'cross-site request forgery (CSRF)/SQL injection', URL: 'https://packetstormsecurity.com/files/132038/WordPress-NewStatPress-0.9.8-Cross-Site-Scripting-SQL-Injection.html' }
+    - { FirstVersion: 0.9.6, LastVersion: 1.0.4, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://research.g0blin.co.uk/g0blin-00057/' }
+    - { FirstVersion: 1.0.1, LastVersion: 1.0.4, TypeOfVulnerability: 'cross-site request forgery (CSRF)/SQL injection', URL: 'https://research.g0blin.co.uk/g0blin-00057/' }
 nex-forms-express-wp-form-builder:
     - { FirstVersion: '3.0', LastVersion: '3.0', TypeOfVulnerability: 'http://www.homelab.it/index.php/2015/04/21/wordpress-nex-forms-sqli/', URL: 'SQL injection' }
 nextend-facebook-connect:
@@ -368,6 +381,8 @@ rich-counter:
     - { FirstVersion: 1.1.0, LastVersion: 1.2.0, TypeOfVulnerability: 'persistent cross-site scripting (XSS)', URL: 'http://www.myblog.att4ck3r.ir/wordpress-rich-counter-plugin-cross-site-scripting/' }
 roomcloud:
     - { FirstVersion: '1.1', LastVersion: '1.1', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://www.milw00rm.com/exploits/8858' }
+s3bubble-amazon-s3-html-5-video-with-adverts:
+    - { FirstVersion: '0.5', LastVersion: '0.7', TypeOfVulnerability: 'arbitrary file viewing', URL: 'https://packetstormsecurity.com/files/132578/WordPress-S3Bubble-Cloud-Video-With-Adverts-Analytics-Arbitrary-File-Download.html' }
 se-html5-album-audio-player:
     - { FirstVersion: 1.0.8, LastVersion: 1.1.0, TypeOfVulnerability: 'arbitrary file viewing', URL: 'https://packetstormsecurity.com/files/132266/WordPress-SE-HTML5-Album-Audio-Player-1.1.0-Directory-Traversal.html' }
 sell-downloads:
@@ -422,6 +437,8 @@ spider-facebook:
     - { FirstVersion: '1.0', LastVersion: 1.0.10, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/130318/WordPress-Spider-Facebook-1.0.10-Cross-Site-Scripting.html' }
 spnbabble:
     - { FirstVersion: '1.1', LastVersion: 1.4.1, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129580/WordPress-SPNbabble-1.4.1-CSRF-XSS.html' }
+stageshow:
+    - { FirstVersion: '5.0', LastVersion: 5.0.8, TypeOfVulnerability: 'open redirect', URL: 'https://packetstormsecurity.com/files/132553/WordPress-StageShow-5.0.8-Open-Redirect.html' }
 store-locator:
     - { FirstVersion: '2.11', LastVersion: 3.33.1, TypeOfVulnerability: 'SQL injection', URL: 'https://research.g0blin.co.uk/g0blin-00031/' }
 store-locator-le:
@@ -613,6 +630,8 @@ xerte-online:
     - { FirstVersion: '0.1', LastVersion: 0.3.2, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.opensyscom.fr/Actualites/wordpress-plugins-xerte-online-arbitrary-file-upload-vulnerability.html' }
 yet-another-related-posts-plugin:
     - { FirstVersion: '1.0', LastVersion: 4.2.4, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://research.evex.pw/?vuln=15' }
+yop-poll:
+    - { FirstVersion: '4.3', LastVersion: 5.7.3, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://research.g0blin.co.uk/g0blin-00051/' }
 yurl-retwitt:
     - { FirstVersion: '1.3', LastVersion: '1.4', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129582/WordPress-yURL-ReTwitt-WP-1.4-CSRF-XSS.html' }
 zip-attachments:
