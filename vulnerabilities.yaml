@@ -52,6 +52,8 @@ buddypress-media:
     - { FirstVersion: 3.7.9, LastVersion: 3.7.39, TypeOfVulnerability: 'authenticated SQL injection', URL: 'https://research.g0blin.co.uk/g0blin-00046/' }
 calculated-fields-form:
     - { FirstVersion: 1.0.1, LastVersion: 1.0.10, TypeOfVulnerability: 'cross-site request forgery (CSRF)/SQL injection', URL: 'http://packetstormsecurity.com/files/130603/WordPress-Calculated-Fields-Form-1.0.10-SQL-Injection.html' }
+candidate-application-form:
+    - { FirstVersion: '1.0', LastVersion: '1.0', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=142' }
 cardoza-facebook-like-box:
     - { FirstVersion: '1.0', LastVersion: 2.8.2, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129506/WordPress-Facebook-Like-Box-2.8.2-CSRF-XSS.html' }
 cart66-lite:
@@ -365,6 +367,8 @@ really-easy-slider:
     - { FirstVersion: '0.1', LastVersion: '0.1', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.exploit-db.com/exploits/17872/' }
 really-simple-guest-post:
     - { FirstVersion: 1.0.1, LastVersion: 1.0.6, TypeOfVulnerability: 'local file inclusion (LFI)', URL: 'https://www.exploit-db.com/exploits/37209/' }
+recent-backups:
+    - { FirstVersion: '0.1', LastVersion: '0.7', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=144' }
 redirection-page:
     - { FirstVersion: 1.0.2, LastVersion: 1.0.2, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/130314/WordPress-Redirection-Page-1.2-CSRF-XSS.html' }
 reflex-gallery:
@@ -402,6 +406,8 @@ simple-ads-manager:
     - { FirstVersion: 2.0.73, LastVersion: 2.6.96, TypeOfVulnerability: 'SQL injection', URL: 'http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en' }
 simple-download-button-shortcode:
     - { FirstVersion: '1.0', LastVersion: '1.0', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://packetstormsecurity.com/files/113415/WordPress-Simple-Download-Button-Shortcode-1.0-File-Disclosure.html' }
+simple-image-manipulator:
+    - { FirstVersion: '1.0', LastVersion: '1.0', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=147' }
 simple-ip-ban:
     - { FirstVersion: '1.0', LastVersion: 1.2.3, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129500/WordPress-IP-Ban-1.2.3-CSRF-XSS.html' }
 simple-security:
@@ -514,6 +520,8 @@ work-the-flow-file-upload:
     - { FirstVersion: 0.1.6, LastVersion: 2.5.2, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.homelab.it/index.php/2015/04/04/wordpress-work-the-flow-file-upload-vulnerability/' }
 wp-all-import:
     - { FirstVersion: '3.0', LastVersion: 3.2.3, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.pritect.net/blog/wp-all-import-3-2-3-pro-4-0-3-vulnerability-breakdown' }
+wp-attachment-export:
+    - { FirstVersion: 0.1.0, LastVersion: 0.2.3, TypeOfVulnerability: 'information disclosure', URL: 'https://packetstormsecurity.com/files/132693/WordPress-WP-Attachment-Export-0.2.3-Arbitrary-File-Download.html' }
 wp-backitup:
     - { FirstVersion: 1.1.4, LastVersion: '1.9', TypeOfVulnerability: 'privilege escalation', URL: 'http://security.szurek.pl/wp-backitup-19-privilege-escalation.html' }
     - { FirstVersion: 1.7.0, LastVersion: '1.9', TypeOfVulnerability: 'information disclosure', URL: 'http://security.szurek.pl/wp-backitup-19-disclosure-of-potentially-sensitive-information.html' }
@@ -546,6 +554,8 @@ wp-fb-autoconnect:
     - { FirstVersion: 1.0.0, LastVersion: 4.0.5, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129508/WordPress-WP-FB-AutoConnect-4.0.5-CSRF-XSS.html' }
 wp-filemanager:
     - { FirstVersion: 1.2.8, LastVersion: 1.3.0, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.exploit-db.com/exploits/25440/' }
+wp-front-end-repository:
+    - { FirstVersion: 1.0.0, LastVersion: '1.1', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.vapid.dhs.org/advisory.php?v=141' }
 wp-google-maps:
     - { FirstVersion: '4.3', LastVersion: 6.0.26, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://www.htbridge.com/advisory/HTB23236' }
 wp-html-sitemap:
@@ -609,6 +619,8 @@ wpcommenttwit:
     - { FirstVersion: '0.1', LastVersion: '0.5', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129581/WordPress-wpCommentTwit-0.5-CSRF-XSS.html' }
 wpdatatables:
     - { FirstVersion: '1.0', LastVersion: 1.0.53, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/' }
+wpe-indoshipping:
+    - { FirstVersion: 2.0.0, LastVersion: 2.5.0, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.vapid.dhs.org/advisory.php?v=145' }
 wpmarketplace:
     - { FirstVersion: 2.2.0, LastVersion: 2.4.0, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://security.szurek.pl/wp-marketplace-240-arbitrary-file-download.html' }
     - { FirstVersion: 1.5.0, LastVersion: 2.4.0, TypeOfVulnerability: 'remote code execution', URL: 'http://www.homelab.it/index.php/2015/03/24/wp-marketplace-rce/' }
@@ -616,6 +628,8 @@ wpshop:
     - { FirstVersion: 1.3.1.6, LastVersion: 1.3.9.5, TypeOfVulnerability: 'arbitrary file upload', URL: 'https://research.g0blin.co.uk/g0blin-00036/' }
 wpstorecart:
     - { FirstVersion: 2.0.0, LastVersion: 2.5.29, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.opensyscom.fr/Actualites/wordpress-plugins-wpstorecart-arbitrary-file-upload-vulnerability.html' }
+wptf-image-gallery:
+    - { FirstVersion: 1.0.1, LastVersion: 1.0.3, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.vapid.dhs.org/advisory.php?v=148' }
 wysija-newsletters:
     - { FirstVersion: '1.1', LastVersion: 2.6.7, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://packetstormsecurity.com/files/127363/Wordpress-MailPoet-wysija-newsletters-Unauthenticated-File-Upload.html' }
 x-forms-express:
