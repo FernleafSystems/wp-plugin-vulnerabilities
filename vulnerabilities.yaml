@@ -165,6 +165,8 @@ feature-comments:
 filedownload:
     - { FirstVersion: '0.1', LastVersion: '0.1', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.exploit-db.com/exploits/17858/' }
     - { FirstVersion: '1.4', LastVersion: '1.4', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://www.vapid.dhs.org/advisory.php?v=140' }
+flickr-justified-gallery:
+    - { FirstVersion: '3.2', LastVersion: 3.3.6, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://security.dxw.com/advisories/reflected-xss-in-flickr-justified-gallery-could-allows-unauthenticated-attackers-to-do-almost-anything-an-admin-can-do/' }
 floating-social-bar:
     - { FirstVersion: 1.0.0, LastVersion: 1.1.6, TypeOfVulnerability: 'persistent cross-site scripting (XSS)', URL: 'http://security.szurek.pl/floating-social-bar-115-xss.html' }
 formidable:
@@ -185,6 +187,9 @@ gallery-bank:
     - { FirstVersion: 3.0.0, LastVersion: 3.0.34, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://cxsecurity.com/issue/WLB-2014100159' }
     - { FirstVersion: '1.0', LastVersion: 2.0.26, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://www.securityfocus.com/archive/1/529637' }
     - { FirstVersion: 3.0.100, LastVersion: 3.0.101, TypeOfVulnerability: 'authenticated SQL injection', URL: 'https://research.g0blin.co.uk/g0blin-00033/' }
+gd-bbpress-attachments:
+    - { FirstVersion: '1.5', LastVersion: '2.2', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://security.dxw.com/advisories/reflected-xss-in-gd-bbpress-attachments-allows-an-attacker-to-do-almost-anything-an-admin-can/' }
+    - { FirstVersion: '1.5', LastVersion: '2.2', TypeOfVulnerability: 'cross-site request forgery (CSRF)/local file inclusion (LFI)', URL: 'https://security.dxw.com/advisories/local-file-include-vulnerability-in-gd-bbpress-attachments-allows-attackers-to-include-arbitrary-php-files/' }
 gd-star-rating:
     - { FirstVersion: 0.9.0, LastVersion: 1.9.22, TypeOfVulnerability: 'cross-site request forgery (CSRF)/SQL injection', URL: 'https://security.dxw.com/advisories/csrf-and-blind-sql-injection-in-gd-star-rating-1-9-22/' }
 geo-mashup:
@@ -323,6 +328,7 @@ page-builder-sandwich:
     - { FirstVersion: '0.4', LastVersion: '0.11', TypeOfVulnerability: 'full path disclosure', URL: 'http://k3dsec.blogspot.com/2015/03/wordpress-plugin-pagebuildersandwich.html' }
 paid-memberships-pro:
     - { FirstVersion: 1.5.1, LastVersion: 1.7.14.2, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://security.szurek.pl/paid-memberships-pro-17142-path-traversal.html' }
+    - { FirstVersion: 1.1.4, LastVersion: 1.8.4.2, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://www.htbridge.com/advisory/HTB23264' }
 paypal-currency-converter-basic-for-woocommerce:
     - { FirstVersion: '1.0', LastVersion: '1.3', TypeOfVulnerability: 'arbitrary file viewing', URL: 'https://www.exploit-db.com/exploits/37253/' }
 photo-gallery:
@@ -554,6 +560,8 @@ wp-fb-autoconnect:
     - { FirstVersion: 1.0.0, LastVersion: 4.0.5, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129508/WordPress-WP-FB-AutoConnect-4.0.5-CSRF-XSS.html' }
 wp-filemanager:
     - { FirstVersion: 1.2.8, LastVersion: 1.3.0, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://www.exploit-db.com/exploits/25440/' }
+wp-flash-player:
+    - { FirstVersion: '1.0', LastVersion: '1.3', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://www.netsparker.com/ns-15-009-multiple-xss-vulnerabilities-identified-in-wp-flash-player/' }
 wp-front-end-repository:
     - { FirstVersion: 1.0.0, LastVersion: '1.1', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.vapid.dhs.org/advisory.php?v=141' }
 wp-google-maps:
@@ -576,6 +584,8 @@ wp-mon:
     - { FirstVersion: '0.5', LastVersion: 0.5.1, TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://packetstormsecurity.com/files/131502/WordPress-WP-Mon-Arbitrary-File-Download.html' }
 wp-photo-album-plus:
     - { FirstVersion: 2.4.3, LastVersion: 5.5.17, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://security.szurek.pl/wp-photo-album-plus-5417-reflected-xss.html' }
+wp-plotly:
+    - { FirstVersion: 1.0.0, LastVersion: 1.0.2, TypeOfVulnerability: 'authenticated persistent cross-site scripting (XSS)', URL: 'https://security.dxw.com/advisories/stored-xss-in-plotly-allows-less-privileged-users-to-insert-arbitrary-javascript-into-posts/' }
 wp-powerplaygallery:
     - { FirstVersion: '3.3', LastVersion: '3.3', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.vapid.dhs.org/advisory.php?v=132' }
     - { FirstVersion: '3.3', LastVersion: '3.3', TypeOfVulnerability: 'SQL injection', URL: 'http://www.vapid.dhs.org/advisory.php?v=132' }
