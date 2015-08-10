@@ -1,5 +1,7 @@
 ab-google-map-travel:
     - { FirstVersion: '1.0', LastVersion: '3.4', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/130960/WordPress-AB-Google-Map-Travel-CSRF-XSS.html' }
+accurate-form-data-real-time-form-validation:
+    - { FirstVersion: '1.0', LastVersion: '1.2', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'https://packetstormsecurity.com/files/132911/WordPress-WP-Accurate-Form-Data-1.2-XSS-CSRF.html' }
 acf-frontend-display:
     - { FirstVersion: '', LastVersion: 2.0.6, TypeOfVulnerability: 'arbitrary file upload', URL: 'https://packetstormsecurity.com/files/132590/WordPress-ACF-Frontend-Display-Shell-Upload.html' }
 acobot:
@@ -16,6 +18,8 @@ adsense-click-fraud-monitoring:
     - { FirstVersion: '1.2', LastVersion: 1.8.6, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://www.vapid.dhs.org/advisory.php?v=119' }
 advanced-custom-fields:
     - { FirstVersion: 3.5.0, LastVersion: 3.5.1, TypeOfVulnerability: 'remote file inclusion (RFI)', URL: 'http://ceriksen.com/2012/11/14/wordpress-advanced-custom-fields-remote-file-inclusion-vulnerability/' }
+advertisement-management:
+    - { FirstVersion: '1.0', LastVersion: '1.0', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'https://packetstormsecurity.com/files/132886/WordPress-Advertisement-Management-1.0-Cross-Site-Scripting.html' }
 ajax-pagination:
     - { FirstVersion: '1.1', LastVersion: '1.1', TypeOfVulnerability: 'local file inclusion (LFI)', URL: 'https://security.dxw.com/advisories/end-user-exploitable-local-file-inclusion-vulnerability-in-ajax-pagination-twitter-style-1-1/' }
 ajax-search-lite:
@@ -63,6 +67,8 @@ category-list-portfolio-page:
     - { FirstVersion: '1.0', LastVersion: 1.2.3, TypeOfVulnerability: 'arbitrary file upload', URL: 'http://www.exploit-db.com/exploits/17872/' }
 cforms2:
     - { FirstVersion: '10.2', LastVersion: '14.7', TypeOfVulnerability: 'arbitrary file upload', URL: 'http://0day.today/exploit/23056' }
+chief-editor:
+    - { FirstVersion: '1.2', LastVersion: '3.7', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://packetstormsecurity.com/files/132879/WordPress-Chief-Editor-3.6.1-Cross-Site-Scripting.html' }
 cip4-folder-download-widget:
     - { FirstVersion: '1.4', LastVersion: '1.10', TypeOfVulnerability: 'arbitrary file viewing', URL: 'http://packetstormsecurity.com/files/130009/WordPress-CIP4-Folder-Download-1.10-Local-File-Inclusion.html' }
 citizen-space:
@@ -98,6 +104,8 @@ contus-video-gallery:
     - { FirstVersion: '2.7', LastVersion: '2.7', TypeOfVulnerability: 'SQL injection', URL: 'http://www.homelab.it/index.php/2015/02/11/wordpress-video-gallery-2-7-sql-injection/' }
     - { FirstVersion: '2.7', LastVersion: '2.8', TypeOfVulnerability: 'cross-site request forgery (CSRF)', URL: 'http://www.exploit-db.com/exploits/36610/' }
     - { FirstVersion: '2.7', LastVersion: '2.8', TypeOfVulnerability: 'cross-site request forgery (CSRF)/SQL injection', URL: 'http://www.homelab.it/index.php/2015/04/13/wordpress-video-gallery-2-8-sql-injection-vulnerability/' }
+copy-or-move-comments:
+    - { FirstVersion: 1.0.0, LastVersion: 1.0.0, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://packetstormsecurity.com/files/132905/WordPress-Copy-Or-Move-Comments-1.0.0-Cross-Site-Scripting.html' }
 cp-multi-view-calendar:
     - { FirstVersion: '1.01', LastVersion: '1.01', TypeOfVulnerability: 'SQL injection', URL: 'http://www.homelab.it/index.php/2014/10/23/wordpress-cp-multi-view-event-calendar-1-01-sql-injection/' }
     - { FirstVersion: '1.01', LastVersion: 1.1.5, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://www.milw00rm.com/exploits/7740' }
@@ -107,6 +115,8 @@ crayon-syntax-highlighter:
     - { FirstVersion: 2.0.0, LastVersion: 2.6.10, TypeOfVulnerability: 'authenticated defacement', URL: 'https://research.g0blin.co.uk/g0blin-00044/' }
 crossslide-jquery-plugin-for-wordpress:
     - { FirstVersion: 1.1.0, LastVersion: 2.0.5, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/130313/WordPress-Cross-Slide-2.0.5-Cross-Site-Request-Forgery-Cross-Site-Scripting.html' }
+customize-youtube-videos:
+    - { FirstVersion: '0.1', LastVersion: '0.2', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://packetstormsecurity.com/files/132906/WordPress-Customize-Youtube-Videos-0.2-Cross-Site-Scripting.html' }
 dandyid-services:
     - { FirstVersion: 1.0.1, LastVersion: 1.5.9, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129575/WordPress-DandyID-Services-ID-1.5.9-CSRF-XSS.html' }
 db-backup:
@@ -245,6 +255,8 @@ is-human:
     - { FirstVersion: 1.3.3, LastVersion: 1.4.2, TypeOfVulnerability: 'remote code execution', URL: 'http://packetstormsecurity.com/files/101497/Is-Human-1.4.2-WordPress-Plugin-Command-Execution.html' }
 itwitter:
     - { FirstVersion: 'Version 0.01 (05-06-2009)', LastVersion: 'Version 0.04 (30-07-2009)', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://vulnerability-lab.com/get_content.php?id=1375' }
+job-manager:
+    - { FirstVersion: 0.2.0, LastVersion: 0.7.24, TypeOfVulnerability: 'persistent cross-site scripting (XSS)', URL: 'https://packetstormsecurity.com/files/132931/WordPress-Job-Manager-0.7.22-Cross-Site-Scripting.html' }
 jw-player-plugin-for-wordpress:
     - { FirstVersion: '2.0', LastVersion: 2.1.3, TypeOfVulnerability: 'cross-site request forgery (CSRF)', URL: 'https://security.dxw.com/advisories/jw-player-for-flash-html5-video/' }
 landing-pages:
@@ -320,6 +332,7 @@ nextgen-gallery:
 ninja-forms:
     - { FirstVersion: '2.0', LastVersion: 2.8.6, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://security.szurek.pl/ninja-forms-286-reflected-xss.html' }
     - { FirstVersion: '2.8', LastVersion: 2.8.8, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/130369/WordPress-Ninja-Forms-2.8.8-Cross-Site-Scripting.html' }
+    - { FirstVersion: 2.7.6, LastVersion: 2.9.21, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://packetstormsecurity.com/files/132913/WordPress-Ninja-Forms-2.9.21-Cross-Site-Scripting.html' }
 o2tweet:
     - { FirstVersion: 0.0.1, LastVersion: 0.0.4, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129578/WordPress-O2Tweet-0.0.4-CSRF-XSS.html' }
 our-team-enhanced:
@@ -365,6 +378,8 @@ powerpress:
     - { FirstVersion: 0.8.0, LastVersion: '6.0', TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://www.netsparker.com/cve-2015-1385-xss-vulnerability-in-blubrry-powerpress/' }
 pwgrandom:
     - { FirstVersion: '1.0', LastVersion: '1.11', TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'http://packetstormsecurity.com/files/129640/WordPress-PWG-Random-1.11-CSRF-XSS.html' }
+qtranslate:
+    - { FirstVersion: '1.0', LastVersion: 2.5.39, TypeOfVulnerability: 'reflected cross-site scripting (XSS)', URL: 'https://www.htbridge.com/advisory/HTB23265' }
 quick-pagepost-redirect-plugin:
     - { FirstVersion: '1.8', LastVersion: 5.0.3, TypeOfVulnerability: 'cross-site request forgery (CSRF)/cross-site scripting (XSS)', URL: 'https://security.dxw.com/advisories/csrf-and-stored-xss-in-quick-pagepost-redirect-plugin/' }
 ready-ecommerce:
